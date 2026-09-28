@@ -1,0 +1,36 @@
+# ===== Visual Studio =====
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# ===== Сборка C++ =====
+x64/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+
+# ===== Данные симуляции =====
+*.txt
+*.csv
+*.dat
+!README.md
+!requirements.txt
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
